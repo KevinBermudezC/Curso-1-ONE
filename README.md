@@ -14,4 +14,4 @@
 
 ### Kevin Bermudez
 
-### Linkedin: [https://www.linkedin.com/school/aluracursos/](https://www.linkedin.com/in/kevin-bermudez-c/)
+### Linkedin: [https://www.linkedin.com/in/kevin-bermudez-c/]
