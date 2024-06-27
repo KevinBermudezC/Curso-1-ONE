@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-terciario: #22D4FD;
+
+    --fuente-monserrat: "Montserrat", sans-serif;
+    --fuente-krona: "Krona One", sans-serif;
+}
+
+
 /* Global */
 *{
     padding: 0;
     margin: 0;
 }
 body{
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
     box-sizing: border-box;
 }
 /* Header */
@@ -20,10 +31,10 @@ body{
 }
 
 .header__menu__link{
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-monserrat);
     font-weight: 600;
     font-size: 24px;
-    color: #22D4FD;
+    color: var(--color-terciario);
     text-decoration: none;
 }
 
@@ -44,16 +55,16 @@ body{
 
 .presentacion__contenido__titulo{
     font-size: 36px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fuente-krona);
 }
 
 .titulo-destaque{
-    color: #22D4FD;
+    color: var(--color-terciario);
 }
 
 .presentacion__contenido__texto{
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-monserrat);
 }
 /* links */
 .presentacion__enlaces{
@@ -66,20 +77,20 @@ body{
 
 .presentacion__enlaces__subtitulo{
     font-size: 24px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fuente-krona);
     font-weight: 400;
 }
 
 .presentacion__enlaces__link{
     width: 378px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--color-terciario);
     text-align: center;
     padding: 21.5px 0;
     border-radius: 8px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-monserrat);
     font-weight: 600;
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--color-secundario);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,16 +101,16 @@ body{
 }
 .presentacion__contenido__texto a{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--color-terciario);
 }
 
 /* Footer */
 .footer{
-    background-color: #22D4FD;
+    background-color: var(--color-terciario);
     padding: 24px;
-    color: #000000;
+    color: var(--color-primario);
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fuente-monserrat);
     font-weight: 400;
     font-size: 24px;
 }
