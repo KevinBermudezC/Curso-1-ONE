@@ -88,6 +88,11 @@ body{
 .presentacion__enlaces__link:hover{
     background-color: #272727;
 }
+.presentacion__contenido__texto a{
+    text-decoration: none;
+    color: #22D4FD;
+}
+
 /* Footer */
 .footer{
     background-color: #22D4FD;
